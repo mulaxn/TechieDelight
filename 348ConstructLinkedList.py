@@ -6,18 +6,14 @@ Input : [1, 2, 3, 4, 5]
 Output: 1 —> 2 —> 3 —> 4 —> 5 —> None
 
 '''
-
-class Solution:
-
-	'''
-	A singly-linked list node is defined as:
-
-	class Node:
+class Node:
 		def __init__(self, data=None, next=None):
 			self.data = data	# data field
 			self.next = next	# pointer to the next node
-	'''
 
+
+class Solution:
+	
 	def construct(self, keys: List[int]) -> Node:
 		# Write your code here...
 		if not keys:
